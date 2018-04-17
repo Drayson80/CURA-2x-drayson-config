@@ -1,0 +1,27 @@
+{
+    "id": "ultimaker_original_CE_dual2s_1st",
+    "version": 2,
+    "name": "1st Extruder 2s",
+    "inherits": "fdmextruder",
+    "metadata": {
+        "machine": "ultimaker_original_CE_dual2s",
+        "position": "0"
+    },
+
+    "overrides": {
+        "extruder_nr": {
+            "default_value": 0,
+            "maximum_value": "1"
+        },
+        "machine_nozzle_offset_x": { "default_value": 0.0 },
+        "machine_nozzle_offset_y": { "default_value": 0.0 },
+		"machine_extruder_start_code": { "default_value": "\n ; EXTRUDER T0 START Slicer CODE \n; switching motion\nG0 F9000 X219 Y17.5\nG0 F1000 X223\nG0 F9000 X219\nM117 Printing right train ...\n" },
+        "machine_extruder_start_pos_abs": { "default_value": true },
+        "machine_extruder_start_pos_x": { "value": "prime_tower_position_x" },
+        "machine_extruder_start_pos_y": { "value": "prime_tower_position_y" },
+		"machine_extruder_end_code": { "default_value": "\n ; EXTRUDER T0 END Slicer CODE\n" },
+        "machine_extruder_end_pos_abs": { "default_value": true },
+        "machine_extruder_end_pos_x": { "value": "prime_tower_position_x" },
+        "machine_extruder_end_pos_y": { "value": "prime_tower_position_y" }
+    }
+}
