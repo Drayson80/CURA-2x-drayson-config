@@ -17,11 +17,10 @@
             <ns0:diameter>2.85</ns0:diameter>
   </ns0:properties>
   <ns0:settings>
-            <ns0:setting key="retraction speed">0</ns0:setting>
             <ns0:setting key="heated bed temperature">45</ns0:setting>
             <ns0:setting key="print cooling">80</ns0:setting>
             <ns0:setting key="standby temperature">170</ns0:setting>
-            <ns0:setting key="retraction amount">0</ns0:setting>
+            <ns0:setting key="retraction_enable">false</ns0:setting>
             <ns0:setting key="print temperature">225</ns0:setting>    <ns0:machine>
       <ns0:machine_identifier manufacturer="Ultimaker" product="Ultimaker Original" />
       <ns0:setting key="retraction speed">0.0</ns0:setting>
@@ -29,23 +28,6 @@
       <ns0:setting key="standby temperature">150</ns0:setting>
       <ns0:setting key="retraction amount">0.0</ns0:setting>
     </ns0:machine>
-    <ns0:machine>
-      <ns0:machine_identifier manufacturer="Ultimaker" product="Ultimaker 2 Go" />
-      <ns0:setting key="retraction speed">0.0</ns0:setting>
-      <ns0:setting key="print cooling">0.0</ns0:setting>
-      <ns0:setting key="standby temperature">150</ns0:setting>
-      <ns0:setting key="retraction amount">0.0</ns0:setting>
-      <ns0:setting key="processing temperature graph">
-                </ns0:setting>
-    </ns0:machine>
-    <ns0:machine>
-      <ns0:machine_identifier manufacturer="Ultimaker" product="Ultimaker 2" />
-      <ns0:setting key="retraction speed">0.0</ns0:setting>
-      <ns0:setting key="print cooling">0.0</ns0:setting>
-      <ns0:setting key="standby temperature">150</ns0:setting>
-      <ns0:setting key="retraction amount">0.0</ns0:setting>
-      <ns0:setting key="processing temperature graph">
-                </ns0:setting>
-    </ns0:machine>
+
   </ns0:settings>
 </ns0:fdmmaterial>
