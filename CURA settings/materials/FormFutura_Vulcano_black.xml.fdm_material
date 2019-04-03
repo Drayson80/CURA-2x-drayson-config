@@ -8,7 +8,7 @@
     </ns0:name>
     <ns0:color_code>#2d2d2d</ns0:color_code>
     <ns0:description>Annealing: preheat oven at 110C, threaten time: small -20min, large -60min, cooldown oven to room temp with object inside</ns0:description>
-    <ns0:GUID>SelfMat_25_For_Vul_#2d2d2d</ns0:GUID>
+    <ns0:GUID>SelfMat_25_For_Vulcano_black_#2d2d2d</ns0:GUID>
     <ns0:version>2</ns0:version>
     <ns0:adhesion_info>material flow: 100 / print speed: 50 / layer height: 0.1</ns0:adhesion_info>
   </ns0:metadata>

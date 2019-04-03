@@ -8,7 +8,7 @@
     </ns0:name>
     <ns0:color_code>#aaaa7f</ns0:color_code>
     <ns0:description>t.b.d.</ns0:description>
-    <ns0:GUID>SelfMat_1_Col_PLA_#aaaa7f</ns0:GUID>
+    <ns0:GUID>SelfMat_1_Col_PLA_generic_#aaaa7f</ns0:GUID>
     <ns0:version>2</ns0:version>
     <ns0:adhesion_info>material flow: 107 / print speed: 60 / </ns0:adhesion_info>
   </ns0:metadata>

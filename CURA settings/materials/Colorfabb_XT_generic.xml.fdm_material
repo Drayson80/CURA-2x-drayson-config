@@ -8,7 +8,7 @@
     </ns0:name>
     <ns0:color_code>#ffaa00</ns0:color_code>
     <ns0:description>Cooling fan full ON at 15mm</ns0:description>
-    <ns0:GUID>SelfMat_5_Col_XT_#ffaa00</ns0:GUID>
+    <ns0:GUID>SelfMat_5_Col_XT_generic_#ffaa00</ns0:GUID>
     <ns0:version>2</ns0:version>
     <ns0:adhesion_info>material flow: 110 / print speed: 30 / </ns0:adhesion_info>
   </ns0:metadata>
