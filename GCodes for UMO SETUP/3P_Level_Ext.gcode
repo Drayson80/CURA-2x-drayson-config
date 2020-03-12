@@ -56,3 +56,10 @@ G00 Z10.0 F180 ;move the platform down
 G28 X0 Y0 F9000
 M117 Leveling Done
 G00 Z20.0 F180 ;move the platform down
+
+;make some noise
+M300 S1397 P240
+M300 S1760 P240
+M300 S2093 P240
+M300 S1397 P720
+M300 S0 P240
